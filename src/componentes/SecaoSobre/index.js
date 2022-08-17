@@ -1,24 +1,26 @@
+import "./estiloSecaoSobre.css";
+
 export default function SecaoSobre() {
     return (
-        <section id="sobre">
-            <div>
+        <section className="secaoSobre" id="sobre">
+            <div className="limitar-secao">
                 <h2>QUEM SOMOS NÓS?</h2>
-                <p>Fundada em 2001, em Nova Iguaçu - Rio de Janeiro, a Óticas vida iniciou suas atividades focada no atendimento ao público de renda mais baixa, sempre com o objetivo de proporcionar ao cliente bom atendimento, qualidade e preço baixo.</p>
+                <p className="pSobre">Fundada em 2001, em Nova Iguaçu - Rio de Janeiro, a Óticas vida iniciou suas atividades focada no atendimento ao público de renda mais baixa, sempre com o objetivo de proporcionar ao cliente bom atendimento, qualidade e preço baixo.</p>
 
-                <div>
-                    <img src="assets/loja.png" alt="" />
+                <div className="containerCardSobre">
+                    <img className="cardSobre" src="assets/loja.png" alt="" />
 
-                    <div>
+                    <div className="cardSobre cardSobreTexto">
                         <h3>Nossas Filiais</h3>
                         <p>Hoje temos mais de 20 filiais pelo Brasil e na América</p>
                     </div>
 
-                    <div>
+                    <div className="cardSobre cardSobreTexto">
                         <h3>Atendimento flexível</h3>
                         <p>Nossa equipe possui é treinada para te atender</p>
                     </div>
 
-                    <img src="assets/atendimento.png" alt="" />
+                    <img className="cardSobre" src="assets/atendimento.png" alt="" />
 
                 </div>
             </div>
