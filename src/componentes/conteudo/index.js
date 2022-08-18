@@ -1,7 +1,7 @@
-import SecaoCapa from "../SecaoCapa";
-import SecaoProdutos from "../SecaoProdutos";
-import SecaoSobre from "../SecaoSobre";
-import SecaoContato from "../SecaoContato/SecaoContato";
+import SecaoCapa from '../SecaoCapa';
+import SecaoSobre from '../SecaoSobre';
+import SecaoProdutos from '../SecaoProdutos';
+import SecaoContato from '../SecaoContato';
 
 export default function Conteudo() {
     return (
@@ -11,5 +11,5 @@ export default function Conteudo() {
             <SecaoSobre />
             <SecaoContato />
         </main>
-    );
-};
+    )
+}

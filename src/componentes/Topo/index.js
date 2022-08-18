@@ -1,17 +1,17 @@
-import './estiloTopo.css';
+import './estilos.css';
 
 export default function Topo() {
     return (
         <header>
-            <div className="limitar-secao container-topo">
-                <img src="assets\logo.png" alt="logo" />
+            <div className='limitar-secao'>
+                <img src='assets/logo.png' alt='imagem de um óculos à direita e o nome da ótica à esquerda' />
 
-                <nav className="menu">
-                    <a href="#produtos">PRODUTOS</a>
-                    <a href="#sobre">SOBRE</a>
-                    <a href="#contato">CONTATO</a>
+                <nav>
+                    <a href='#produtos'>PRODUTOS</a>
+                    <a href='#sobre'>SOBRE</a>
+                    <a href='#contato'>CONTATO</a>
                 </nav>
             </div>
         </header>
-    );
-};
+    )
+}
